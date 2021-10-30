@@ -17,7 +17,8 @@ namespace StudentAssessment
             Console.WriteLine("Enter your name to display your results ");
             Console.Write("Enter Student Name: ");
             _name = Console.ReadLine();
-            
+            Console.WriteLine();
+
             Dictionary<string, double> subjectMarks = new();
             subjectMarks.Add("English", 98.2);
             subjectMarks.Add("Core Mathematics", 89);
